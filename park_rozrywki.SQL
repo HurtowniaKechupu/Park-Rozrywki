@@ -67,7 +67,7 @@ CREATE TABLE "Wynagrodzenie"(
 
 -- Create indexes for table Wynagrodzenie
 
-CREATE INDEX "IX_Relationship7" ON "Wynagrodzenie" ("ID Pracownika")
+CREATE INDEX "IX_Pracownik otrzymuje wynagrodzenie" ON "Wynagrodzenie" ("ID Pracownika")
 /
 
 -- Add keys for table Wynagrodzenie
